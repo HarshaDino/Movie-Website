@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Bootstrap5</title>
+  
+</head>
+
+<body>
+    <div class="wrapper  bg-dark">
+        <nav class="navbar navbar-expand-sm bg-dark pb-0 navbar-success fixed-top">
+            <div class="container-fluid border-bottom border-secondary">
+                <a class="navbar-brand" href="index.html"><h1 class="h1 text-warning">CineNest</h1></a>
+                <ul class="navbar-nav">
+                    <li class="nav-item pe-3">
+                    <a class="nav-link" href="downloads.html">
+                        <i class="fa fa-download text-success download"></i>
+                    </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a id="toggle" class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown"></a>  
+                    <ul class="dropdown-menu dropdown-menu-end bg-secondary border-warning">
+                        <li class="dropdown-item"><a class="nav-link text-dark" href="#">Profile</a></li>
+                        <li class="dropdown-item"><a class="nav-link text-dark" href="faq.html">FAQ</a></li>
+                        <li class="dropdown-item"><a class="nav-link text-dark" href="#">Help</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <img class="rounded-circle img-fluid" src="download.png" alt="error">
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>   
+
+        <div class=" pt-5">
+            <section id="accordion" class="pt-5 mt-5 container m-5 p-5 text-center">
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq1" href="#faq1">Is it legal to watch movies on this website?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq1" data-bs-parent="#accordion">
+                        <p class="card-body">Yes, all the movies and shows available on our platform are either licensed for streaming or are in the public domain. We strictly follow copyright laws to ensure your viewing experience is both safe and legal.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq2" href="#faq2">Do I need to create an account to watch movies?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq2" data-bs-parent="#accordion">
+                        <p class="card-body">Some movies can be streamed without signing up. However, creating a free or premium account allows you to unlock additional features like saving watch history, creating playlists, and getting personalized recommendations.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq3" href="#faq3">Are the movies free to watch?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq3" data-bs-parent="#accordion">
+                        <p class="card-body">Yes, all the movies and shows available on our platform are either licensed for streaming or are in the public domain. We strictly follow copyright laws to ensure your viewing experience is both safe and legal.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq4" href="#faq4">Is it legal to watch movies on this website?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq4" data-bs-parent="#accordion">
+                        <p class="card-body">We offer a mix of free and premium movies. Many classic and public domain films are free, while recent releases and exclusive titles may require a subscription or pay-per-view access.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq5" href="#faq5">What devices can I use to watch movies?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq5" data-bs-parent="#accordion">
+                        <p class="card-body">Our platform supports a wide range of devices, including desktop computers, laptops, smartphones, tablets, and smart TVs. You can also stream directly through compatible browsers and mobile apps.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq6" href="#faq6">Can I download movies to watch offline?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq6" data-bs-parent="#accordion">
+                        <p class="card-body">We offer streaming in multiple resolutions, including SD (480p), HD (720p), Full HD (1080p), and Ultra HD (4K) for supported titles. The video quality adjusts automatically based on your internet speed.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq7" href="#faq7">How can I fix buffering or playback issues?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq7" data-bs-parent="#accordion">
+                        <p class="card-body">If your movie is buffering, try refreshing the page, closing unused apps, or reducing the video quality setting. A stable internet connection of at least 5 Mbps is recommended for HD streaming.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq8" href="#faq8">Are there subtitles available?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq8" data-bs-parent="#accordion">
+                        <p class="card-body">Most movies come with subtitles in multiple languages. You can enable or disable subtitles from the video player’s settings, and in some cases, choose the text size and style for easier readability.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq9" href="#faq9">Can I request a movie or TV show to be added?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq9" data-bs-parent="#accordion">
+                        <p class="card-body">Yes! You can send us your requests through our movie request form. While we can’t guarantee every title will be added due to licensing restrictions, we do our best to include popular requests.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq10" href="#faq10">How do I report a problem with a movie?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq10" data-bs-parent="#accordion">
+                        <p class="card-body">If you experience audio issues, broken links, or playback errors, simply click the “Report” button on the movie’s page or contact our customer support team. We aim to fix all reported problems as quickly as possible.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq11" href="#faq11"> Do you offer parental controls for family-friendly viewing?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq11" data-bs-parent="#accordion">
+                        <p class="card-body">Yes, our platform includes parental control settings. You can set content restrictions, create child-friendly profiles, and lock mature content to ensure a safe viewing environment for younger audiences.</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-light">
+                    <div class="card-header">
+                        <a class=" collapsed btn p-2 text-info" data-bs-toggle="collapse" data-bs-target="#faq12" href="#faq12">Can I share my account with friends or family?</a>
+                    </div>
+                    <div class="collapse p-3" id="faq12" data-bs-parent="#accordion">
+                        <p class="card-body">Our subscription plans may allow limited account sharing, depending on the tier you choose. Please check the plan details for the number of devices and simultaneous streams permitted. Sharing login credentials outside your household may violate our terms of service.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap5</title>
+</head>
+
+<!-- <style>
+    *{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        background-color: black;
+    }
+
+    li>img{
+        width: 50px;
+        height: 50px;
+    }
+
+    a>i{
+    padding: 30px 5px 5px 900px;
+    }
+
+    #profile-img{
+        padding: 10px 5px 5px ;
+    }
+
+    .download {
+        font-size: 25px !important;
+    }
+    
+</style> -->
+<body>
+    <div class="wrapper  bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm bg-dark pb-0 navbar-success fixed-top">
+                <div class="container-fluid border-bottom border-secondary">
+                    <a class="navbar-brand" href="index.html"><h1 class="h1 text-warning">CineNest</h1></a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item pe-3">
+                        <a class="nav-link" href="downloads.html">
+                            <i class="fa fa-download text-success download"></i>
+                        </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a id="toggle" class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown"></a>  
+                        <ul class="dropdown-menu dropdown-menu-end bg-secondary border-warning">
+                            <li class="dropdown-item"><a class="nav-link text-dark" href="#">Profile</a></li>
+                            <li class="dropdown-item"><a class="nav-link text-dark" href="faq.html">FAQ</a></li>
+                            <li class="dropdown-item"><a class="nav-link text-dark" href="#">Help</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                        <img class="rounded-circle img-fluid" src="download.png" alt="error">
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>   
+
+            <section class="pt-5 mt-5 container">
+                <div class="row pt-3 text-center">
+                    <div class="col-3 p-3 border col-sm-3">
+                        <div class="card bg-dark border-dark">
+                            <p><img class="card-img-top rounded border border-danger img-fluid" src="superman.jpg" alt="error" style="width: 150px;"></p>
+                            <div class="card-body">
+                                <h4 class="cart-title text-muted">Superman</h4>
+                                <p class="text-info">Cast : David Corenswet, Rachel Brosnahan</p>
+                                <a href="https://youtu.be/Ox8ZLF6cGM0?si=J2paFAEA0JDDGHBE" class="card-link text-success text-decoration-none">Watch Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-3 border col-sm-3">
+                        <div class="card bg-dark border-dark">
+                            <p><img class="card-img-top rounded border border-danger img-fluid" src="the_home.jpg" alt="error" style="width: 150px;"></p>
+                            <div class="card-body">
+                                <h4 class="cart-title text-muted">The Home</h4>
+                                <p class="text-info">Cast : Pete Davidson, John Glover, Bruce Altman</p>
+                                <a href="https://youtu.be/xRWYNpg5YRA?si=qcoi7xQjk7zJGHYh" class="card-link text-success text-decoration-none">Watch Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-3 border col-sm-3">
+                        <div class="card bg-dark border-dark">
+                            <p><img class="card-img-top rounded border border-danger img-fluid" src="i_know_what_you_did_last_summer.jpg" alt="error" style="width: 150px;"></p>
+                            <div class="card-body">
+                                <h4 class="cart-title text-muted">I Know What You Did Last Summer</h4>
+                                <p class="text-info">Cast : Madelyn Cline</p>
+                                <a href="https://youtu.be/IceTkSOSNJI?si=68OjWZd8r9DWdgwv" class="card-link text-success text-decoration-none">Watch Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-3 border col-sm-3">
+                        <div class="card bg-dark border-dark">
+                            <p><img class="card-img-top rounded border border-danger img-fluid" src="httyd.jpeg" alt="error" style="width: 150px;"></p>
+                            <div class="card-body">
+                                <h4 class="cart-title text-muted">How to train oyur dragons-Live Action</h4>
+                                <p class="text-info">Cast : Mason Thames, Nico Parker, Gerard Butler</p>
+                                <a href="https://youtu.be/22w7z_lT6YM?si=1SmHqFlGdR9HOBEv" class="card-link text-success text-decoration-none">Watch Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-3 border col-sm-3">
+                        <div class="card bg-dark border-dark">
+                            <p><img class="card-img-top rounded border border-danger img-fluid" src="smurfs.jpg" alt="error" style="width: 150px;"></p>
+                            <div class="card-body">
+                                <h4 class="cart-title text-muted">Smurfs</h4>
+                                <p class="text-info">Cast : Rihanna, James Corden</p>
+                                <a href="https://youtu.be/s18jQqtGsMw?si=M_tyumZGZxkm-BWT" class="card-link text-success text-decoration-none">Watch Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-3 border col-sm-3">
+                        <div class="card bg-dark border-dark">
+                            <p><img class="card-img-top rounded border border-danger img-fluid" src="med_fantastic_four_ver10.jpg" alt="error" style="width: 150px;"></p>
+                            <div class="card-body">
+                                <h4 class="cart-title text-muted">Fantastic Four</h4>
+                                <p class="text-info">Cast : Pedro Pascal, Vanessa Kirby, Joseph Quinn, Ebon Moss‑Bachrach</p>
+                                <a href="https://youtu.be/18QQWa5MEcs?si=lR9sHCleluTTGs_o" class="card-link text-success text-decoration-none">Watch Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-3 border col-sm-3">
+                        <div class="card bg-dark border-dark">
+                            <p><img class="card-img-top rounded border border-danger img-fluid" src="jurassic_world_rebirth.jpg" alt="error" style="width: 150px;"></p>
+                            <div class="card-body">
+                                <h4 class="cart-title text-muted">Jurasic World : Rebirth</h4>
+                                <p class="text-info">Cast : Scarlett Johansson</p>
+                                <a href="https://youtu.be/jan5CFWs9ic?si=-7EaGx3uXm_d7cx4" class="card-link text-success text-decoration-none">Watch Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-3 border col-sm-3">
+                        <div class="card bg-dark border-dark">
+                            <p><img class="card-img-top rounded border border-danger img-fluid" src="oh_hi.jpg" alt="error" style="width: 150px;"></p>
+                            <div class="card-body">
+                                <h4 class="cart-title text-muted">Oh, Hi!</h4>
+                                <p class="text-info">Cast : Molly Gordon, Logan Lerman</p>
+                                <a href="https://youtu.be/s_IEVF0GQPk?si=9vsH2Ec-l0tI06TV" class="card-link text-success text-decoration-none">Watch Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+            <ul class="pagination justify-content-center pt-5">
+                <li class="page-item"><a class="page-link" href="index.html">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+            </ul>
+            </section>
+
+        <footer>
+          <div class="text-center text-white p-3 bg-dark">
+            <p>Copyright &copy; 2025</p>
+          </div>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>
