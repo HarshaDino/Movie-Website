@@ -10,6 +10,10 @@ A simple, responsive frontend movie streaming website built with HTML, CSS, Boot
 
 -  Movie cards with posters, titles, and trailer links
 
+### Live Demo
+
+[click here to view the page !](https://harshadino.github.io/Movie-Website/)
+
 ### Note
 
 This project is frontend-only (no backend/database). It’s meant as a practice project for UI/UX and Bootstrap, not for real movie streaming.
